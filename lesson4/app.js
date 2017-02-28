@@ -1,6 +1,7 @@
 /**
  * Created by sylvie on 2016/6/1.
  */
+
 var eventproxy = require('eventproxy');
 var superagent = require('superagent');
 var cheerio = require('cheerio');
@@ -80,3 +81,5 @@ superagent.get(cnodeUrl).end(function(err,res){
 //    使用async结束
 
 });
+
+
